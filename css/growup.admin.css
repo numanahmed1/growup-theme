@@ -1,0 +1,58 @@
+/*
+	@package growuptheme
+*/
+.growup-general-form,
+.growup-sidebar-preview {
+  display: inline-block;
+  float: left;
+}
+.growup-sidebar-preview {
+  width: 280px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  margin-right: 20px;
+}
+.growup-sidebar {
+  display: block;
+  text-align: center;
+}
+h1.growup-username,
+h2.growup-description {
+  font-weight: 100;
+  color: #fff;
+}
+h1.growup-username {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+h2.growup-description {
+  font-size: 13px;
+  margin: 0 0 20px;
+}
+/*img*/
+.image-container {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  margin: 20px auto;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.growup-icon-sidebar {
+  color: #fff;
+  margin: 0 2px;
+}
+.growup-icon-sidebar:before {
+  width: 22px;
+  height: 22px;
+  font-size: 22px;
+}
